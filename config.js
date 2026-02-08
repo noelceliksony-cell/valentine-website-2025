@@ -5,11 +5,11 @@
 const CONFIG = {
     valentineName: "Eshgham, will you be my Valentine? — Yours, Noel",
 
-    pageTitle: "esgham, will you be my valentine? 💝",
+    pageTitle: "Eshgham, will you be my Valentine? 💝",
 
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],
-        bears: ['😽', '😻']
+        hearts: ['❤️', '💖', '💘', '💝', '💕'],
+        bears: ['🥰', '😍']
     },
 
     questions: {
@@ -21,8 +21,8 @@ const CONFIG = {
         },
         second: {
             text: "Wie sehr schlägt dein Herz für mich?",
-            startText: "sehr",
-            nextBtn: "seeeeehrrrrrrrr ❤️"
+            startText: "So sehr",
+            nextBtn: "Weiter ❤️"
         },
         third: {
             text: "می‌خوای ۱۴ فوریه ولنتاین من باشی؟",
@@ -32,39 +32,36 @@ const CONFIG = {
     },
 
     loveMessages: {
-        extreme: "بی‌دلیل دارم لبخند می‌زنم 🥰",
-        high: "پر از حس خوب 💞",
-        normal: "یه خوشحالی آروم 🌸"
+        extreme: "قلبم کامل مال توئه ❤️",
+        high: "پر از عشق و آرامش 💞",
+        normal: "یه حس قشنگ و گرم 🌸"
     },
 
     celebration: {
         title: "من خوشبخت‌ترین آدم دنیام 💖",
-        message: "مرسی که گفتی بله. با تو همه‌چیز درست به نظر میاد.",
-        emojis: "💗✨🥰🌸💞"
+        message: "از اینکه گفتی بله، دلم پر از عشقه.",
+        emojis: "❤️💗💞✨🌹"
     },
 
+    // Klassisches Valentine-Design (rot / rosa)
     colors: {
-        backgroundStart: "#ffafbd",
-        backgroundEnd: "#ffc3a0",
-        buttonBackground: "#ff6b6b",
-        buttonHover: "#ff8787",
-        textColor: "#ff4757"
+        backgroundStart: "#ff758c",   // warmes Rosa
+        backgroundEnd: "#ff7eb3",     // Valentine Pink
+        buttonBackground: "#e63946",  // sattes Rot
+        buttonHover: "#ff4d6d",       // helleres Rot
+        textColor: "#ffffff"          // weiß für Kontrast
     },
 
     animations: {
-        floatDuration: "15s",
-        floatDistance: "50px",
+        floatDuration: "14s",
+        floatDistance: "60px",
         bounceSpeed: "0.5s",
-        heartExplosionSize: 1.5
+        heartExplosionSize: 1.7
     },
 
+    // Musik komplett deaktiviert
     music: {
-        enabled: true,
-        autoplay: true,
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3",
-        startText: "🎵 Play Music",
-        stopText: "🔇 Stop Music",
-        volume: 0.5
+        enabled: false
     }
 };
 
