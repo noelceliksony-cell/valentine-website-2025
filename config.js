@@ -3,21 +3,25 @@
 // ============================================
 
 const CONFIG = {
-    valentineName: "Eshgham, will you be my Valentine? — Yours, Noel",
+    // Hauptüberschrift (danach kommt automatisch ", my love…")
+    valentineName: "Samira esgham, will you be my Valentine?",
 
-    pageTitle: "Eshgham, will you be my Valentine? 💝",
+    // Browser-Tab
+    pageTitle: "Samira esgham 💝",
 
+    // Hintergrund-Emojis
     floatingEmojis: {
         hearts: ['❤️', '💖', '💘', '💝', '💕'],
         bears: ['🥰', '😍']
     },
 
+    // Fragen
     questions: {
         first: {
             text: "یه کم منو دوست داری؟",
             yesBtn: "آره 💖",
             noBtn: "نه 🙈",
-            secretAnswer: "من فقط دوستت ندارم، عاشقت شدم ❤️⬇️ روی دکمه بزن"
+            secretAnswer: "من فقط دوستت ندارم، عاشقت شدم ❤️ 👇"
         },
         second: {
             text: "Wie sehr schlägt dein Herz für mich?",
@@ -31,25 +35,27 @@ const CONFIG = {
         }
     },
 
+    // Love Meter (Samira + Noel Forever-Vibe)
     loveMessages: {
-        extreme: "قلبم کامل مال توئه ❤️",
+        extreme: "Samira ❤️ Noel",
         high: "پر از عشق و آرامش 💞",
         normal: "یه حس قشنگ و گرم 🌸"
     },
 
+    // Nach dem Ja
     celebration: {
         title: "من خوشبخت‌ترین آدم دنیام 💖",
-        message: "از اینکه گفتی بله، دلم پر از عشقه.",
+        message: "Samira + Noel. Always. ♾️",
         emojis: "❤️💗💞✨🌹"
     },
 
-    // Klassisches Valentine-Design (rot / rosa)
+    // Valentinstag-Farben
     colors: {
-        backgroundStart: "#ff758c",   // warmes Rosa
-        backgroundEnd: "#ff7eb3",     // Valentine Pink
-        buttonBackground: "#e63946",  // sattes Rot
-        buttonHover: "#ff4d6d",       // helleres Rot
-        textColor: "#ffffff"          // weiß für Kontrast
+        backgroundStart: "#ff758c",
+        backgroundEnd: "#ff7eb3",
+        buttonBackground: "#e63946",
+        buttonHover: "#ff4d6d",
+        textColor: "#ffffff"
     },
 
     animations: {
@@ -59,7 +65,7 @@ const CONFIG = {
         heartExplosionSize: 1.7
     },
 
-    // Musik komplett deaktiviert
+    // Musik komplett aus
     music: {
         enabled: false
     }
