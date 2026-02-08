@@ -4,10 +4,10 @@
 
 const CONFIG = {
     // Hauptüberschrift (danach kommt automatisch ", my love…")
-    valentineName: "Samira esgham, will you be my Valentine?",
+    valentineName: "Samira eshgham, will you be my Valentine?",
 
     // Browser-Tab
-    pageTitle: "Samira esgham 💝",
+    pageTitle: "Samira eshgham 💝",
 
     // Hintergrund-Emojis
     floatingEmojis: {
@@ -35,7 +35,7 @@ const CONFIG = {
         }
     },
 
-    // Love Meter (Samira + Noel Forever-Vibe)
+    // Love Meter (Samira + Noel)
     loveMessages: {
         extreme: "Samira ❤️ Noel",
         high: "پر از عشق و آرامش 💞",
@@ -65,7 +65,7 @@ const CONFIG = {
         heartExplosionSize: 1.7
     },
 
-    // Musik komplett aus
+    // Musik AUS
     music: {
         enabled: false
     }
