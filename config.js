@@ -17,7 +17,7 @@ const CONFIG = {
             text: "یه کم منو دوست داری؟",
             yesBtn: "آره 💖",
             noBtn: "نه 🙈",
-            secretAnswer: "من فقط دوستت ندارم، عاشقت شدم ❤️"
+            secretAnswer: "من فقط دوستت ندارم، عاشقت شدم ❤️⬇️ روی دکمه بزن"
         },
         second: {
             text: "Wie sehr schlägt dein Herz für mich?",
