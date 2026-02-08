@@ -3,7 +3,7 @@
 // ============================================
 
 const CONFIG = {
-    valentineName: "Samira",
+    valentineName: "Eshgham, will you be my Valentine? — Yours, Noel",
 
     pageTitle: "esgham, will you be my valentine? 💝",
 
